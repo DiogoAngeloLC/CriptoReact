@@ -1,0 +1,40 @@
+.align-center-form {
+  max-width: 450px!important;
+  margin: 0 auto 100px;
+  margin-top: 15vh;
+  width: 655px;
+
+
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #2e444d;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    color: #777777;
+    margin-bottom: 15px;
+  }
+
+  .textsenha{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-top: 1px solid #EBECEC;
+    padding-top: 30px;
+  }
+
+  .textsenha2{
+    margin-top: 50px;
+  }
+
+  @media screen and (max-width: 850px){
+    max-width: unset;
+    width: 100%;
+    margin-top: 0;
+  }
+}

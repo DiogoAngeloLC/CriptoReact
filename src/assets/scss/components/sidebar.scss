@@ -1,0 +1,32 @@
+.container-sidebar {
+  display: flex;
+  width: 100%;
+
+  .content-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container-sidebar {
+    flex-direction: column;
+    min-height: 100vh;
+
+    .content-side {
+      padding: 0px;
+      justify-content: space-around;
+
+      &._interno {
+        padding: 0;
+        justify-content: unset;
+      }
+    
+    }
+    
+  }
+}
+

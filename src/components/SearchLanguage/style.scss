@@ -1,0 +1,14 @@
+.linguagemHeader {
+  display: flex;
+  align-items: center;
+
+  img{
+    margin-right: 8px;
+  }
+  select{
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      outline: none;
+  }
+}

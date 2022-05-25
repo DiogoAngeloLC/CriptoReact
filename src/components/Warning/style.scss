@@ -1,0 +1,41 @@
+.notificacoes {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e9eaea;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+
+  .warning {
+    color: #F57709;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    margin-left: 10px;
+    margin-top: 2px;
+    text-decoration: none;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+
+  .alert-content {
+    display: flex;
+  }
+
+  .color-icon-w {
+    color: #F57709;
+  }
+
+  p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 850px) {
+    display: none;
+  }
+}

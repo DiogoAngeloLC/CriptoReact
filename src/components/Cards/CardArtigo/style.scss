@@ -1,0 +1,30 @@
+.card-artigo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  img{
+    width: 100%;
+  }
+  .title-qtd {
+    img{
+      width: 100%;
+    }
+    h5 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      color: #2E444D;
+      margin-bottom: 4px;
+      margin-top: 7px;
+    }
+    p{
+      margin-bottom: 10px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 850px) {
+    margin-bottom: 4px;
+  }
+}

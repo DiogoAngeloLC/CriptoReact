@@ -1,0 +1,127 @@
+.container-artint {
+  justify-content: start !important;
+  .btn-return {
+    border: 1px solid #e9eaea;
+    border-radius: 12px;
+    padding: 12.5px 22px;
+    display: flex;
+    width: 100%px;
+    height: 50px;
+    margin-right: 15px;
+    align-items: center;
+    cursor: pointer;
+  }
+  .colun-btn {
+    display: flex;
+  }
+  .icon {
+    font-size: 18px;
+    margin-left: 2px;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #777777;
+    letter-spacing: -0.4px;
+  }
+
+  .color-icon {
+    color: #777777;
+  }
+
+  h2 {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #2e444d;
+    margin-bottom: 0px;
+  }
+
+  .txt-red {
+    font-weight: 600;
+    color: #d70f22;
+  }
+
+  .title-art {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+
+  .title-cham {
+    margin-bottom: 30px;
+    max-width: 1075px;
+  }
+
+  .espaco-r {
+    margin-right: 5px;
+  }
+
+  .espaco-l {
+    margin-left: 5px;
+  }
+  .txt-area {
+    line-height: 24px;
+    color: #777777;
+  }
+
+  .textochamado {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+
+  .tamanhobotao {
+    font-size: 13px;
+  }
+
+  .botaochamado {
+    padding-top: 2px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.0888889px;
+    color: #515151;
+  }
+
+  @media screen and (max-width: 850px) {
+    .colun-btn {
+      display: grid !important;
+      justify-content: center;
+    }
+    .btn-return {
+      margin-bottom: 20px;
+      height: 60px;
+      align-items: center;
+    }
+    .xs-12 {
+      padding-right: 0px !important;
+    }
+    .row {
+      margin-right: 0px;
+    }
+    .mt-20 {
+      margin-top: 0px !important;
+    }
+    max-width: unset;
+    width: 100%;
+    margin: 0 auto 0;
+
+    h2,
+    p {
+      text-align: center;
+    }
+
+    button {
+      margin: 0 auto;
+      display: table;
+    }
+  }
+  @media screen and (min-width: 1300px) {
+    .btn-left {
+      margin-left: 30%;
+    }
+  }
+}

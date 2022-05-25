@@ -1,0 +1,53 @@
+.home-style{
+
+    .style-card{
+        margin-bottom: 48px;
+    }
+
+.main-title02{
+    margin-bottom: 48px;
+
+}
+
+.card-anuncio-home{
+    h5 {
+       font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+        
+    }
+    .button-card-home{
+        padding: 9px 16px;
+        background: linear-gradient(294.34deg, #21AE7B 15.58%, #747DDD 62.66%);  
+        border: none;
+        margin-right: auto;
+    }
+}
+
+.subtitle-home{
+    margin-bottom: 32px;
+}
+@media screen and (max-width: 850px) {
+
+    .style-card{
+        margin-bottom: 24px;
+    }
+
+    .main-title02{
+        margin-bottom: 24px;
+    }
+    .card-anuncio-home{
+        h5 {
+           font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+            
+        }
+    }
+    .subtitle-home{
+        margin-bottom: 24px;
+    }
+}
+}

@@ -1,0 +1,41 @@
+.modal-container {
+    align-items: center;
+    background-color: #282B4D;
+    display: flex;
+    height: 100vh;
+    left: 0;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 9999999999999999999;  
+
+    .modal-validation {
+        background-color: white;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 16px 40px 32px 16px;
+        
+         .button-close {
+         border: none;
+         background: transparent;
+         width: 20px;
+         height: 24px;
+         padding: 0;
+         text-align: start;
+         cursor: pointer;
+        }
+     
+        .validation-componentes {
+             padding: 24px;
+        }
+     
+     
+        .campo-verificacao {
+     
+        }
+     }
+}
+

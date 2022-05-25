@@ -1,0 +1,44 @@
+.card-information {
+  border-radius: 12px;
+  border: 1px solid #e9eaea;
+  padding: 24px;
+  width: 100%;
+  min-height: 241px;
+  max-height: 241px;
+
+  .main-title {
+    border-bottom: 1px solid #e9eaea;
+    margin-bottom: 25px;
+    padding-bottom: 16px;
+
+    .img-card {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .cardWithBudget{
+    display: flex;
+    align-items: center;
+    
+    p {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    min-height: 263px;
+
+    .main-title {
+      padding-bottom: 23px;
+    }
+  }
+}
+
+
+
+.button-card {
+  padding: 5px 16px;
+  border-radius: 10px;
+  margin-left: auto;
+}

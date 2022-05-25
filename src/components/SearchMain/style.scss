@@ -1,0 +1,21 @@
+.searchHeader {
+    display: flex;
+    align-items: center;
+    span{
+      color: #777777;
+    }
+    input{
+        border: none;
+        outline: none;
+        font-size: 14px;
+        background-color: transparent;
+    }
+
+    &.hidden-mobile{
+        @media screen and (max-width: 850px){
+       display: none;
+      
+      }
+    }
+    
+  }

@@ -1,0 +1,21 @@
+.containerInputRadio {
+  margin-bottom: 19px;
+  display: flex;
+
+  input{
+    width: 18px;
+    height: 18px;
+  }
+
+  label {
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    color: #777777;
+  }
+}
+
+.validate {
+  color: #d70f22;
+}

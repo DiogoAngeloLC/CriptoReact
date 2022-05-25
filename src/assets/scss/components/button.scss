@@ -1,0 +1,432 @@
+.btn {
+  border: 1px solid #5e65b5;
+  background-color: #5e65b5;
+  color: white;
+  transition: 0.3s;
+  padding: 12.5px 22px;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    border-color: #747DDD;
+    background-color: #747DDD !important;
+    color: white !important;
+  }
+
+  //Tamanhos ----------------------------
+
+  &.md1 {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 1.5px, 8 px;
+    &.icon {
+      width: 10px;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  &.md2 {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 4.5px, 12px;
+    &.icon {
+      width: 12px;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  &.md3 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px, 16px;
+    &.icon {
+      width: 14px;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  &.md4 {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 9px, 16px;
+    &.icon {
+      width: 16px;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  &.md5 {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 12.5px, 22px;
+    &.icon {
+      width: 18px;
+      margin-bottom: 0px !important;
+    }
+  }
+
+  &.md6 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 15.5px, 24px;
+    &.icon {
+      width: 20px;
+      margin-bottom: 0px !important;
+    }
+  }
+  &.sm {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 5px 16px;
+    border-radius: 8px;
+  }
+
+  //-----------------------------------
+
+  //Cores -----------------------------
+
+  &.white-transparent {
+    background-color: transparent !important;
+    border-color: white !important;
+    color: white !important;
+
+    &.btn[disabled] {
+      color: #d8d8d8 !important;
+      border-color: #d8d8d8 !important;
+    }
+
+    &:hover {
+      border-color: #f3f3f3 !important;
+      color: #f3f3f3 !important;
+    }
+
+    &:active {
+      border-color: #d8d8d8 !important;
+      color: #d8d8d8 !important;
+    }
+
+    &:focus {
+      border-color: white !important;
+      color: white !important;
+    }
+    &.md1 {
+      font-size: 10px;
+      line-height: 12px;
+      padding: 1.5px, 8 px;
+      &.icon {
+        width: 10px;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    &.md2 {
+      font-size: 12px;
+      line-height: 15px;
+      padding: 4.5px, 12px;
+      &.icon {
+        width: 12px;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    &.md3 {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 5px, 16px;
+      &.icon {
+        width: 14px;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    &.md4 {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 9px, 16px;
+      &.icon {
+        width: 16px;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    &.md5 {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 12.5px, 22px;
+      &.icon {
+        width: 18px;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    &.md6 {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 15.5px, 24px;
+      &.icon {
+        width: 20px;
+        margin-bottom: 0px !important;
+      }
+    }
+  }
+
+  &.white-blue {
+    background-color: white !important;
+    border-color: white !important;
+    color: #5d8a9c !important;
+
+    &.btn[disabled] {
+      border-color: #f3f3f3 !important;
+      background-color: #f3f3f3 !important;
+      color: #d8d8d8 !important;
+    }
+
+    &:hover {
+      color: #75adc4 !important;
+    }
+
+    &:active {
+      color: #2e444d !important;
+    }
+
+    &:focus {
+      color: #5d8a9c !important;
+    }
+    &.md1 {
+      font-size: 10px;
+      line-height: 12px;
+      padding: 1.5px, 8 px;
+      &.icon {
+        width: 10px;
+      }
+    }
+
+    &.md2 {
+      font-size: 12px;
+      line-height: 15px;
+      padding: 4.5px, 12px;
+      &.icon {
+        width: 12px;
+      }
+    }
+
+    &.md3 {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 5px, 16px;
+      &.icon {
+        width: 14px;
+      }
+    }
+
+    &.md4 {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 9px, 16px;
+      &.icon {
+        width: 16px;
+      }
+    }
+
+    &.md5 {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 12.5px, 22px;
+      &.icon {
+        width: 18px;
+      }
+    }
+
+    &.md6 {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 15.5px, 24px;
+      &.icon {
+        width: 20px;
+      }
+    }
+  }
+
+  &.gray-transparent {
+    background-color: transparent;
+    border-color: #bebebe;
+    color: #777777;
+    &:hover {
+      color: #5d8a9c !important;
+      background-color: transparent !important;
+    }
+    &:active {
+      color: #282b4d !important;
+    }
+    &:focus {
+      color: #5d8a9c !important;
+      border-color: #5d8a9c !important;
+    }
+    &.btn[disabled] {
+      border-color: #f3f3f3 !important;
+      background-color: #f3f3f3 !important;
+      color: #d8d8d8 !important;
+    }
+    &.md1 {
+      font-size: 10px;
+      line-height: 12px;
+      padding: 1.5px, 8 px;
+      &.icon {
+        width: 10px;
+      }
+    }
+
+    &.md2 {
+      font-size: 12px;
+      line-height: 15px;
+      padding: 4.5px, 12px;
+      &.icon {
+        width: 12px;
+      }
+    }
+
+    &.md3 {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 5px, 16px;
+      &.icon {
+        width: 14px;
+      }
+    }
+
+    &.md4 {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 9px, 16px;
+      &.icon {
+        width: 16px;
+      }
+    }
+
+    &.md5 {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 12.5px, 22px;
+      &.icon {
+        width: 18px;
+      }
+    }
+
+    &.md6 {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 15.5px, 24px;
+      &.icon {
+        width: 20px;
+      }
+    }
+  }
+
+  &.gradient {
+    background-image: linear-gradient(to right, #747ddd, #21ae7b);
+    border-color: transparent !important;
+    &:hover {
+      color: white !important;
+      background-image: linear-gradient(180deg, #726be6 -36.54%, #77cab7 157.71%);
+    }
+    &:active {
+      color: white !important;
+    }
+
+    &:focus {
+      color: white !important;
+    }
+    &:focus {
+      color: #5e65b5 !important;
+      border-color: #5e65b5 !important;
+      background-image: none !important;
+      background-color: #5e65b5 !important;
+    }
+    &.btn[disabled] {
+      border-color: #f3f3f3 !important;
+      background-color: #f3f3f3 !important;
+      color: #d8d8d8 !important;
+    }
+    &.md1 {
+      font-size: 10px;
+      line-height: 12px;
+      padding: 1.5px, 8 px;
+      &.icon {
+        width: 10px;
+      }
+    }
+
+    &.md2 {
+      font-size: 12px;
+      line-height: 15px;
+      padding: 4.5px, 12px;
+      &.icon {
+        width: 12px;
+      }
+    }
+
+    &.md3 {
+      font-size: 14px;
+      line-height: 22px;
+      padding: 5px, 16px;
+      &.icon {
+        width: 14px;
+      }
+    }
+
+    &.md4 {
+      font-size: 16px;
+      line-height: 22px;
+      padding: 9px, 16px;
+      &.icon {
+        width: 16px;
+      }
+    }
+
+    &.md5 {
+      font-size: 18px;
+      line-height: 22px;
+      padding: 12.5px, 22px;
+      &.icon {
+        width: 18px;
+      }
+    }
+
+    &.md6 {
+      font-size: 20px;
+      line-height: 25px;
+      padding: 15.5px, 24px;
+      &.icon {
+        width: 20px;
+      }
+    }
+  }
+
+  //-----------------------------------
+
+  &.link {
+    border: none;
+    color: #5d8a9c;
+    text-decoration: underline;
+    padding: 0;
+    background-color: transparent;
+    font-weight: bold;
+    
+    &:hover {
+      color: #5e65b5 !important;
+      background-color: transparent !important;
+    }
+  }
+}
+
+.btn[disabled] {
+  background: #f3f3f3 !important;
+  color: #d8d8d8 !important;
+  border-color: #f3f3f3 !important;
+  pointer-events: none;
+}

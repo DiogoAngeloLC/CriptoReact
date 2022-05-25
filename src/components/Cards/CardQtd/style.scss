@@ -1,0 +1,55 @@
+.card-quantidade {
+  border: 1px solid #e9eaea;
+  border-radius: 12px;
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  .title-qtd-01 {
+    h5 {
+      margin: 0;
+    }
+  }
+
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      border: 1px solid #e9eaea;
+      border-radius: 12px;
+      margin: 0 8px;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      align-items: center;
+      border: 1px solid #e9eaea;
+      background: transparent;     
+      border-radius: 50px;
+      color: #777;
+      display: flex;
+      height: 32px;
+      width: 32px;
+      justify-content: center;
+
+      i {
+        display: block;
+        height: 36px;
+      }
+    }
+
+    button[disabled] {
+      opacity: 0.5;
+    }
+  }
+  
+  @media screen and (max-width: 850px) {
+      margin-bottom: 24px;
+   }
+}

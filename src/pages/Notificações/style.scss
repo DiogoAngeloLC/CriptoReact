@@ -1,0 +1,48 @@
+.container-not {
+  h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #2e444d;
+    margin-bottom: 40px;
+  }
+
+  .container-notf {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #5e65b5;
+    letter-spacing: -0.111111px;
+    margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: -0.4px;
+    margin-bottom: 30px;
+    letter-spacing: -0.0888889px;
+    color: #515151;
+  }
+
+  @media screen and (max-width: 850px) {
+    max-width: unset;
+    width: 100%;
+    margin: 0 auto 0;
+
+    h2,
+    p {
+      text-align: center;
+    }
+
+    button {
+      margin: 0 auto;
+      display: table;
+    }
+  }
+}

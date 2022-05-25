@@ -1,0 +1,136 @@
+.sidebar-main {
+  min-height: 100vh;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 16px 40px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  &:before {
+    content: "";
+    background-image: url(../../assets/img/Onboarding.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .content-sidebar {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .logo-mobile {
+      display: none;
+    }
+
+    img {
+      margin-bottom: 44.5px;
+    }
+    p {
+      text-align: center;
+      color: white;
+
+      &.content-upper {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 14px;
+      }
+
+      &.content-text {
+        font-size: 12px;
+        line-height: 21.9px;
+        margin-bottom: 0;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .footer-sidebar {
+    z-index: 1;
+    p {
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+  }
+
+  .arrow-action {
+    z-index: 1;
+    width: 100%;
+    .material-icons {
+      cursor: pointer;
+      &.arrow-side {
+        left:16px;
+        color: #fff;
+      }
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    background: transparent;
+    min-height: unset;
+    width: 100%;
+    align-items: flex-start;
+    padding: 24px 24px 0;
+
+    &:before {
+      display: none;
+    }
+    .content-sidebar p,
+    .footer-sidebar {
+      display: none;
+    }
+
+    .content-sidebar {
+      .logo-desktop {
+        display: none;
+      }
+      .logo-mobile {
+        display: block;
+        margin-bottom: 16px;
+      }
+    }
+
+    .arrow-action {
+      margin-bottom: 72px;
+      .material-icons {
+        &.arrow-side {
+          color: #777777;
+        }
+      }
+    }
+
+    .arrow-action {
+      z-index: 1;
+      width: 100%;
+
+      .arrow-desktop {
+        display: none;
+      }
+
+      .arrow-mobile {
+        display: block;
+      }
+    }
+  }
+}
+
+.container-sidebar.hide-logo .logo-mobile {
+  display: none !important;
+}
+
+.container-siderbar-text {
+  width: 246px;
+}

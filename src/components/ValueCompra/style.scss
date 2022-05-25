@@ -1,0 +1,17 @@
+.total-compra {
+  border: 1px solid #e9eaea;
+  border-radius: 12px;
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  font-size: 14px;
+  p {
+    margin: 0;
+  }
+
+  .button-comprar {
+    padding: 5px 16px;
+    border-radius: 10px;
+  }
+}

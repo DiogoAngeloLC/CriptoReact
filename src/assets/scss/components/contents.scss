@@ -1,0 +1,22 @@
+.content-fill-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../../img/BG.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0 15px;
+  .content-centered-slim {
+    max-width: 327px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 850px) {
+    padding: 0 24px;
+  }
+}

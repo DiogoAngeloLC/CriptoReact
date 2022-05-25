@@ -1,0 +1,63 @@
+.modal-containerR {
+     align-items: center;
+     background-color: #282b4d;
+     display: flex;
+     height: 100vh;
+     left: 0;
+     justify-content: center;
+     position: fixed;
+     top: 0;
+     width: 100vw;
+     z-index: 9999999999999999999;
+
+     .align-center {
+          text-align: center;
+          margin-bottom: 16px;
+     }
+
+     .size-h5 {
+          font-size: 16px;
+          line-height: 120.5%;
+     }
+
+     .btn-1 {
+          width: 100%;
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          align-items: center;
+          font-size: 18px;
+          line-height: 22px;
+     }
+
+     .modal-confirmacao {
+          background-color: white;
+          border-radius: 12px;
+          width: 325px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 32px;
+
+          .button-close {
+               border: none;
+               background: transparent;
+               width: 20px;
+               height: 24px;
+               padding: 0;
+               text-align: start;
+               cursor: pointer;
+          }
+
+          .title-modal-validation {
+               align-items: center;
+               display: flex;
+               flex-direction: column;
+               align-content: center;
+          }
+
+          .validation-componentes {
+               padding: 24px;
+          }
+     }
+}

@@ -1,0 +1,122 @@
+.confirmation-content {
+  margin: 0 auto 70px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -0.4px;
+  }
+
+  .item-chamado{
+    cursor: pointer;
+  }
+
+  h5.title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #2e444d;
+    letter-spacing: -0.4px;
+    margin-bottom: 40px;
+    border-bottom: 0.5px solid #e9eaea;
+    padding-bottom: 17px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 700;
+    color: #5e65b5;
+    letter-spacing: -0.111111px;
+    margin-bottom: 0px;
+  }
+
+  .container-displayflex {
+    display: flex;
+  }
+
+  h4 {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.35px;
+    color: #777777;
+    font-weight: normal;
+    padding: 15px;
+  }
+
+  .container-mensagem-rigth {
+    border: 1px solid #f1f2f2;
+    border-radius: 12px;
+    box-sizing: border-box;
+  }
+
+  .icone-info {
+    color: #d70f22;
+    margin-right: 15px;
+  }
+
+  .p-txt {
+    margin-bottom: 0px;
+  }
+
+  .flex-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+  .chamados {
+    height: 70px;
+    border-radius: 2px;
+    padding-left: 8px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .titlechamaodo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textochamado {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+  }
+
+  .botaochamado {
+    padding-top: 2px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.4px;
+    margin-bottom: 30px;
+    letter-spacing: -0.0888889px;
+    color: #515151;
+  }
+
+  @media screen and (max-width: 850px) {
+    max-width: unset;
+    width: 100%;
+    margin: 0 auto 0;
+
+    h2,
+    p {
+      text-align: center;
+    }
+
+    button {
+      margin: 0 auto;
+      display: table;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.containerTextarea {
+  margin-bottom: 19px;
+  position: relative;
+  &.select {
+    .material-icons {
+      right: 20px;
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      top: 42px;
+      color: #777777;
+      z-index: 2;
+      pointer-events: none;
+    }
+  }
+  .textareaField {
+    height: 100px;
+    resize: vertical !important;
+    position: relative;
+    outline: none;
+    padding: 13px 16px;
+    color: #516c7e;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: 1px solid #a9c8d4;
+    border-radius: 12px;
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.4px;
+    color: #2e444d;
+
+    &::placeholder {
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.4px;
+      color: #2e444d;
+    }
+  }
+
+  label {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    color: #777777;
+    margin-bottom: 8px;
+    display: block;
+  }
+}
+
+.validate {
+  color: #d70f22;
+}
