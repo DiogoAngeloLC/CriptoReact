@@ -1,1 +1,9 @@
-Opa, cheguei
+Para rodar o projeto:
+
+* Clone o repositório
+
+* npm install (após clonar)
+
+* npm start
+
+Desabilitei validação de login.
